@@ -1,0 +1,44 @@
+.container {
+  padding: 16px;
+}
+
+.input {
+  background-color: var(--tatum-color-white);
+  color: var(--tatum-color-black);
+  margin: auto;
+  padding: 8px;
+  width: 350px;
+  border: 1px solid var(--tatum-color-grey);
+  border-radius: 4px;
+  display: block;
+}
+
+.button {
+  background-color: var(--tatum-primary-color);
+  color: white;
+  padding: 8px;
+  width: 120px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  margin: 16px 0;
+}
+
+.button:disabled {
+  background-color: var(--tatum-color-grey);
+  cursor: not-allowed;
+}
+
+.message {
+  font-weight: bold;
+  text-align: center;
+  height: 24px;
+}
+
+.message.error {
+  color: var(--tatum-color-error);
+}
+
+.message.primary {
+  color: var(--tatum-primary-color);
+}

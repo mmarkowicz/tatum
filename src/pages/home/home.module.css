@@ -1,0 +1,13 @@
+img {
+  margin-bottom: 1.5rem;
+  width: 160px;
+  height: 160px;
+}
+
+img:hover {
+  filter: drop-shadow(0 0 2rem #673ab8aa);
+}
+
+.header {
+  color: var(--tatum-primary-color-text);
+}

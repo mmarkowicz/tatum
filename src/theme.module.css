@@ -1,0 +1,30 @@
+:root {
+  /*Primary colors*/
+  --tatum-primary-color: #1976d2;
+  --tatum-primary-color-text: #222;
+
+  /*Secondary colors*/
+  --tatum-secondary-color-text: #ccc;
+
+  /*Functional colors*/
+  --tatum-color-background: #ffffff;
+  --tatum-color-error: #ff0000;
+
+  /*Regular colors*/
+  --tatum-color-black: #000000;
+  --tatum-color-grey: #ccc;
+  --tatum-color-white: #fff;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --tatum-primary-color-text: #ccc;
+    --tatum-secondary-color-text: #222;
+    --tatum-color-background: #1a1a1a;
+  }
+}
+
+:global(:root) {
+  color: var(--tatum-primary-color-text);
+  background-color: var(--tatum-color-background);
+}
